@@ -187,7 +187,7 @@ def drawGame():
             #1/ AAPL
       AAPL = getPrice("https://fr.finance.yahoo.com/quote/AAPL?p=AAPL")
                #2/ TSLA
-      TSLA = 1
+      TSLA = getPrice("https://fr.finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch")
                #3/ AMD
       AMD = getPrice("https://fr.finance.yahoo.com/quote/AMD?p=AMD&.tsrc=fin-srch")
                #4/ WMT
