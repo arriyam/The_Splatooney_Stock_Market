@@ -3,8 +3,10 @@ Created on 11/23/2018
 By: Thushen, Om, Max
 '''
 
+import iexfinance; from iexfinance.stocks import get_historical_data; iexfinance.get_historical_data = get_historical_data
 from iexfinance import get_historical_data
 import pygame
+# import pygame
 import time
 from datetime import datetime
 import matplotlib.pyplot as plt
@@ -70,7 +72,8 @@ pygame.display.set_caption("Stock Simulator Game")
 
 
 #sound
-pygame.mixer.music.load('MiroPetals.mp3')
+# pygame.mixer.music.load('MiroPetals.mp3')
+pygame.mixer.music.load('Ticker.mp3')
 pygame.mixer.music.play(-1)
 
 
